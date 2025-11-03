@@ -1,0 +1,6 @@
+2025/10/20-17:16:37.600 3802 Reusing MANIFEST /home/jono/.config/arduino-ide/Local Storage/leveldb/MANIFEST-000001
+2025/10/20-17:16:37.685 3802 Recovering log #3
+2025/10/20-17:16:37.692 3802 Reusing old log /home/jono/.config/arduino-ide/Local Storage/leveldb/000003.log 
+2025/10/20-17:29:48.298 3803 Level-0 table #5: started
+2025/10/20-17:29:48.301 3803 Level-0 table #5: 19420 bytes OK
+2025/10/20-17:29:48.304 3803 Delete type=0 #3
