@@ -1,3 +1,12 @@
-2025/10/28-14:25:46.698 b36 Reusing MANIFEST /home/jono/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2025/10/28-14:25:46.698 b36 Recovering log #24
-2025/10/28-14:25:46.701 b36 Reusing old log /home/jono/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000024.log 
+2025/12/31-16:39:40.590 64b Reusing MANIFEST /home/jono/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/31-16:39:40.590 64b Recovering log #28
+2025/12/31-16:39:40.645 64b Reusing old log /home/jono/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000028.log 
+2025/12/31-16:40:01.933 6b7 Level-0 table #33: started
+2025/12/31-16:40:01.961 6b7 Level-0 table #33: 1281679 bytes OK
+2025/12/31-16:40:01.965 6b7 Delete type=0 #28
+2025/12/31-16:41:16.261 64a Compacting 1@1 + 1@2 files
+2025/12/31-16:41:16.273 64a Generated table #34@1: 1654 keys, 381455 bytes
+2025/12/31-16:41:16.274 64a Compacted 1@1 + 1@2 files => 381455 bytes
+2025/12/31-16:41:16.276 64a compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/31-16:41:16.276 64a Delete type=2 #33
+2025/12/31-16:41:16.276 64a Delete type=2 #30

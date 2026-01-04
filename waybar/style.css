@@ -1,42 +1,35 @@
 * {
   /* General taskbar font, I like maple mono ^-^*/
-  font-family: Maple Mono, "0xProto" ;
-  border-radius: 0px;
+  border: none;
+  min-height: 0;
+  font-family: Overpass, "0xProto" ;
+  border-radius: 0;
   font-size: 14px;
-  padding: 0px;
+  padding: 0;
   background: transparent;
-}
-
-window#waybar {
-  /* Linear gradients are used because it makes less harsh rounded border radius, gtk bug :p */
-  background-image: linear-gradient(to bottom, #141216 100%);
-  border-radius: 0px;
-  padding: 0px;
-  border-style: none;
 }
 
 #power-profiles-daemon,
 #battery,
 #network,
 #clock,
-#custom-applauncher,
 #tray,
 #workspaces,
 #pulseaudio {
   background-image: linear-gradient(to bottom, #27232b 100%);
 
-  margin: 6px;
+  margin: 4px;
   margin-right: 0px;
   padding: 4px 8px;
-  border-radius: 0px;
+  border-radius: 10px;
   color: #d8cab8;
 
   border-style: none;
   transition-duration: 120ms;
 }
 
-#clock {
-  margin-right: 6px;
+#tray {
+  margin-right: 2px;
 }
 
 #pulseaudio:hover {
@@ -45,33 +38,16 @@ window#waybar {
   transition-duration: 120ms;
 }
 
-#custom-applauncher {
-  font-weight: bold;
-  transition-duration: 120ms;
-}
-#custom-applauncher:hover {
-  background-image: linear-gradient(to bottom, #ac82e9 100%);
-  color: #141216;
-  transition-duration: 120ms;
-}
-
-#tray menu {
-  background-color: #141216;
-  color: #d8cab8;
-  padding: 2px;
-  margin-right: 10px;
-  margin-left: 4px;
-}
-
 #tray menu menuitem {
   background-image: linear-gradient(to bottom, #27232b 100%);
-
-  margin: 3px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
   color: #d8cab8;
-  border-radius: 0px;
+  border-radius: 10px;
   border-style: solid;
-  border-color: #27232b;
 }
+
 #tray menu menuitem:hover {
   background-image: linear-gradient(to bottom, #27232b 100%);
   color: #ac82e9;

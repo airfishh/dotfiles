@@ -1,35 +1,20 @@
-2025/10/29-16:05:54.076 1f93 Reusing MANIFEST /home/jono/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
-2025/10/29-16:05:54.080 1f93 Recovering log #425
-2025/10/29-16:05:54.081 1f93 Level-0 table #428: started
-2025/10/29-16:05:54.083 1f93 Level-0 table #428: 118015 bytes OK
-2025/10/29-16:05:54.085 1f93 Delete type=0 #425
-2025/10/29-16:05:54.085 1f93 Compacting 4@0 + 1@1 files
-2025/10/29-16:05:54.089 1f93 Generated table #430@0: 124 keys, 126274 bytes
-2025/10/29-16:05:54.089 1f93 Compacted 4@0 + 1@1 files => 126274 bytes
-2025/10/29-16:05:54.091 1f93 compacted to: files[ 0 1 0 0 0 0 0 ]
-2025/10/29-16:05:54.091 1f93 Delete type=2 #426
-2025/10/29-16:05:54.091 1f93 Delete type=2 #422
-2025/10/29-16:05:54.092 1f93 Delete type=2 #424
-2025/10/29-16:05:54.092 1f93 Delete type=2 #428
-2025/10/29-16:05:54.092 1f93 Delete type=2 #420
-2025/10/29-16:48:46.956 1f93 Level-0 table #432: started
-2025/10/29-16:48:46.960 1f93 Level-0 table #432: 102923 bytes OK
-2025/10/29-16:48:46.962 1f93 Delete type=0 #429
-2025/10/29-16:57:06.687 1f93 Level-0 table #434: started
-2025/10/29-16:57:06.691 1f93 Level-0 table #434: 100519 bytes OK
-2025/10/29-16:57:06.693 1f93 Delete type=0 #431
-2025/10/29-17:09:01.839 1f93 Level-0 table #436: started
-2025/10/29-17:09:01.843 1f93 Level-0 table #436: 111385 bytes OK
-2025/10/29-17:09:01.846 1f93 Delete type=0 #433
-2025/10/29-17:13:07.729 1f93 Level-0 table #438: started
-2025/10/29-17:13:07.734 1f93 Level-0 table #438: 102471 bytes OK
-2025/10/29-17:13:07.737 1f93 Delete type=0 #435
-2025/10/29-17:13:07.737 1f93 Compacting 4@0 + 1@1 files
-2025/10/29-17:13:07.743 1f93 Generated table #439@0: 125 keys, 127380 bytes
-2025/10/29-17:13:07.743 1f93 Compacted 4@0 + 1@1 files => 127380 bytes
-2025/10/29-17:13:07.745 1f93 compacted to: files[ 0 1 0 0 0 0 0 ]
-2025/10/29-17:13:07.746 1f93 Delete type=2 #432
-2025/10/29-17:13:07.746 1f93 Delete type=2 #436
-2025/10/29-17:13:07.746 1f93 Delete type=2 #430
-2025/10/29-17:13:07.746 1f93 Delete type=2 #438
-2025/10/29-17:13:07.746 1f93 Delete type=2 #434
+2026/01/01-15:48:53.005 1b70 Reusing MANIFEST /home/jono/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2026/01/01-15:48:53.017 1b70 Recovering log #952
+2026/01/01-15:48:53.019 1b70 Level-0 table #955: started
+2026/01/01-15:48:53.024 1b70 Level-0 table #955: 121614 bytes OK
+2026/01/01-15:48:53.027 1b70 Delete type=0 #952
+2026/01/01-15:53:23.014 1ba2 Level-0 table #958: started
+2026/01/01-15:53:23.019 1ba2 Level-0 table #958: 110992 bytes OK
+2026/01/01-15:53:23.023 1ba2 Delete type=0 #956
+2026/01/01-15:53:23.024 1ba2 Compacting 4@0 + 1@1 files
+2026/01/01-15:53:23.031 1ba2 Generated table #959@0: 135 keys, 135335 bytes
+2026/01/01-15:53:23.031 1ba2 Compacted 4@0 + 1@1 files => 135335 bytes
+2026/01/01-15:53:23.034 1ba2 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/01/01-15:53:23.035 1ba2 Delete type=2 #950
+2026/01/01-15:53:23.035 1ba2 Delete type=2 #955
+2026/01/01-15:53:23.035 1ba2 Delete type=2 #948
+2026/01/01-15:53:23.035 1ba2 Delete type=2 #958
+2026/01/01-15:53:23.035 1ba2 Delete type=2 #953
+2026/01/01-16:31:57.428 1ba2 Level-0 table #961: started
+2026/01/01-16:31:57.431 1ba2 Level-0 table #961: 24205 bytes OK
+2026/01/01-16:31:57.434 1ba2 Delete type=0 #957

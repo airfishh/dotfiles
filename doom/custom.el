@@ -9,7 +9,7 @@
  '(org-agenda-files '("~/Documents/org-mode-files/test.org"))
  '(package-selected-packages
    '(go graphviz-dot-mode org-latex-impatient org-modern org-roam org-roam-ql
-     org-roam-ui pdf-tools pytest treemacs-evil)))
+     org-roam-ui pdf-tools platformio-mode pytest treemacs-evil)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
