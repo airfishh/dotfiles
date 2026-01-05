@@ -1,0 +1,35 @@
+* {
+    border-radius: 3px;
+    border: none;
+    }
+
+window {
+  font-size: 24px;
+  font-family: Maple Mono;
+  background-color: rgba(43, 48, 59, 0.9);
+  color: #e8eaed;
+}
+
+#entry {
+  color: #e8eaed;
+}
+#entry:selected {
+  background-color: #e8eaed;
+  background: linear-gradient(90deg, #bbffdd, #dd77ff);
+  color: #121212;
+}
+
+#img {
+  padding: 4px;
+  margin-right: 10px;
+}
+
+#input {
+  background-color: rgba(43, 48, 59, 0.9);
+  color: #e8eaed;
+  padding: 0.25em;
+}
+
+#input:focus {
+  color: #e8eaed;
+}

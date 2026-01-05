@@ -1,0 +1,3 @@
+backend = "full"
+color_space = "lch"
+palette = darkcomp16

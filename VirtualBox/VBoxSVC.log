@@ -1,0 +1,135 @@
+00:00:00.001122 main     VirtualBox XPCOM Server 7.2.4 r170995 linux.amd64 (Oct 22 2025 16:59:14) release log
+00:00:00.001124 main     Log opened 2025-12-09T01:48:19.540926000Z
+00:00:00.001125 main     Build Type: release
+00:00:00.001127 main     OS Product: Linux
+00:00:00.001128 main     OS Release: 6.12.61-1-lts
+00:00:00.001129 main     OS Version: #1 SMP PREEMPT_DYNAMIC Sun, 07 Dec 2025 09:50:46 +0000
+00:00:00.001160 main     DMI Product Name: 20U5000HAU
+00:00:00.001173 main     DMI Product Version: ThinkPad L14 Gen 1
+00:00:00.001179 main     Firmware type: UEFI
+00:00:00.001630 main     Secure Boot: Disabled
+00:00:00.001728 main     Host RAM: 15349MB (14.9GB) total, 13796MB (13.4GB) available
+00:00:00.001733 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.001733 main     Process ID: 2562
+00:00:00.001734 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.011485 main     IPC socket path: /tmp/.vbox-jono-ipc/ipcd
+00:00:00.024619 DCon01   VirtualBox: object creation starts
+00:00:00.025705 DCon01   Home directory: '/home/jono/.config/VirtualBox'
+00:00:00.026538 DCon01   Loading settings file "/home/jono/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.033198 DCon01   USB: Unknown USB device detected (idVendor: 0x06cb, idProduct: 0x00be)
+00:00:00.033229 DCon01   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0029)
+00:00:00.033439 DCon01   Successfully initialised host USB using sysfs
+00:00:00.053244 DCon01   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.057375 DCon01   HostDnsMonitor: initializing
+00:00:00.057895 DCon01   NAT: resolv.conf: nameserver 130.216.1.1
+00:00:00.057913 DCon01   NAT: resolv.conf: nameserver 130.216.1.2
+00:00:00.057945 DCon01   HostDnsMonitor: updating information
+00:00:00.057962 DCon01   HostDnsMonitor: old information
+00:00:00.057966 DCon01     no server entries
+00:00:00.057971 DCon01     no domain set
+00:00:00.057974 DCon01     no search string entries
+00:00:00.057978 DCon01   HostDnsMonitor: new information
+00:00:00.057981 DCon01     server 1: 130.216.1.1
+00:00:00.057985 DCon01     server 2: 130.216.1.2
+00:00:00.057989 DCon01     domain: wlan.auckland.ac.nz
+00:00:00.057993 DCon01     search string 1: wlan.auckland.ac.nz
+00:00:00.062797 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.063611 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.066811 DCon01   Platform architecture set to 'x86'
+00:00:00.068853 DCon01   Loading settings file "/home/jono/VirtualBox VMs/Windows 10/Windows 10.vbox" with version "1.19-linux"
+00:00:00.069073 DCon01   Platform architecture set to 'x86'
+00:00:00.069564 DCon01   Platform architecture set to 'x86'
+00:00:00.071014 DCon01   Loading settings file "/home/jono/VirtualBox VMs/Sussy/Sussy.vbox" with version "1.19-linux"
+00:00:00.071173 DCon01   Platform architecture set to 'x86'
+00:00:00.071313 DCon01   Platform architecture set to 'x86'
+00:00:00.071974 DCon01   Loading settings file "/home/jono/VirtualBox VMs/Ubuntu 22.04.5 LTS/Ubuntu 22.04.5 LTS.vbox" with version "1.19-linux"
+00:00:00.072112 DCon01   Platform architecture set to 'x86'
+00:00:00.072908 DCon01   VirtualBox: object created
+00:00:01.231737 DCon02   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Could not open log file '/home/jono/VirtualBox VMs/Ubuntu 22.04.5 LTS/Logs/VBox.log.4' (VERR_FILE_NOT_FOUND)}, preserve=false aResultDetail=-102
+00:00:01.374940 DCon03   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:01.526556 DCon03   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Aborted)}, preserve=false aResultDetail=0
+00:00:01.646302 DCon03   Saving settings file "/home/jono/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.650310 DCon03   Finished saving settings file "/home/jono/.config/VirtualBox/VirtualBox.xml"
+00:00:04.811433 DCon01   Saving settings file "/home/jono/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:04.815089 DCon01   Finished saving settings file "/home/jono/.config/VirtualBox/VirtualBox.xml"
+00:00:04.899012 DCon01   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Could not open log file '/home/jono/VirtualBox VMs/Sussy/Logs/VBox.log.4' (VERR_FILE_NOT_FOUND)}, preserve=false aResultDetail=-102
+00:00:04.950898 DCon01   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:04.963716 DCon01   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:06.168450 DCon08   Launched VM: 2348814224 pid: 2605 (0xa2d) frontend: GUI/Qt name: Sussy
+00:00:06.238762 DCon04   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:06.268005 DCon04   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:06.784385 DCon07   Platform architecture set to 'x86'
+00:00:06.824722 DCon06   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:06.833383 DCon03   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:07.751656 DCon04   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:07.848974 DCon06   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:07.978235 DCon05   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:08.005517 DCon08   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:00:08.056958 DCon08   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:08.074525 DCon07   Saving settings file "/home/jono/VirtualBox VMs/Sussy/Sussy.vbox" with version "1.19-linux"
+00:00:08.095491 DCon07   Finished saving settings file "/home/jono/VirtualBox VMs/Sussy/Sussy.vbox"
+00:00:08.111440 DCon02   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:08.117077 DCon02   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:00:08.232964 DCon09   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:08.235586 DCon09   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:08.237458 DCon09   HostDnsMonitorProxy::GetDomainName: wlan.auckland.ac.nz
+00:00:08.237720 DCon09   HostDnsMonitorProxy::GetNameServers:
+00:00:08.237733 DCon09     name server 1: 130.216.1.1
+00:00:08.237737 DCon09     name server 2: 130.216.1.2
+00:00:08.237954 DCon09   HostDnsMonitorProxy::GetSearchStrings:
+00:00:08.237957 DCon09     search string 1: wlan.auckland.ac.nz
+00:00:08.276071 DCon06   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:08.360300 DCon06   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:08.417915 DCon04   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:08.445201 DCon06   Saving settings file "/home/jono/VirtualBox VMs/Sussy/Sussy.vbox" with version "1.19-linux"
+00:00:08.447729 DCon06   Finished saving settings file "/home/jono/VirtualBox VMs/Sussy/Sussy.vbox"
+00:00:08.459772 DCon03   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:08.473904 DCon03   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:11.159756 DCon04   Saving settings file "/home/jono/VirtualBox VMs/Sussy/Sussy.vbox" with version "1.19-linux"
+00:00:11.163966 DCon04   Finished saving settings file "/home/jono/VirtualBox VMs/Sussy/Sussy.vbox"
+00:00:11.175246 DCon06   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:11.188180 DCon06   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:12.935171 DCon08   Saving settings file "/home/jono/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:12.940223 DCon06   Saving settings file "/home/jono/VirtualBox VMs/Sussy/Sussy.vbox" with version "1.19-linux"
+00:00:12.944710 DCon08   Finished saving settings file "/home/jono/.config/VirtualBox/VirtualBox.xml"
+00:00:12.945961 DCon06   Finished saving settings file "/home/jono/VirtualBox VMs/Sussy/Sussy.vbox"
+00:00:12.963709 DCon07   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:12.983649 DCon07   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:15.235728 DCon09   Saving settings file "/home/jono/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:15.241513 DCon09   Finished saving settings file "/home/jono/.config/VirtualBox/VirtualBox.xml"
+00:00:20.551934 DCon08   Saving settings file "/home/jono/VirtualBox VMs/Sussy/Sussy.vbox" with version "1.19-linux"
+00:00:20.554803 DCon08   Finished saving settings file "/home/jono/VirtualBox VMs/Sussy/Sussy.vbox"
+00:00:20.590611 DCon03   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:20.607033 DCon03   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:20.938824 DCon03   Saving settings file "/home/jono/VirtualBox VMs/Sussy/Sussy.vbox" with version "1.19-linux"
+00:00:20.942502 DCon03   Finished saving settings file "/home/jono/VirtualBox VMs/Sussy/Sussy.vbox"
+00:00:20.961345 DCon05   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:20.983975 DCon05   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:01:24.970924 DCon05   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:01:25.010088 DCon13   Saving settings file "/home/jono/VirtualBox VMs/Sussy/Sussy.vbox" with version "1.19-linux"
+00:01:25.013718 DCon13   Finished saving settings file "/home/jono/VirtualBox VMs/Sussy/Sussy.vbox"
+00:01:25.031833 DCon05   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:25.045149 DCon05   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:01:27.395676 DCon18   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:01:27.411881 DCon03   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:27.432646 DCon18   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Paused)}, preserve=false aResultDetail=0
+00:01:28.785973 DCon03   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:01:28.791426 DCon03   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Stopping)}, preserve=false aResultDetail=0
+00:01:28.818456 DCon03   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:28.846962 DCon03   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Stopping)}, preserve=false aResultDetail=0
+00:01:28.880318 DCon07   Saving settings file "/home/jono/VirtualBox VMs/Sussy/Sussy.vbox" with version "1.19-linux"
+00:01:28.883985 DCon07   Finished saving settings file "/home/jono/VirtualBox VMs/Sussy/Sussy.vbox"
+00:01:28.915236 DCon03   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:01:28.946980 DCon03   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:28.975287 DCon03   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:01:29.064477 DCon12   ERROR [COM]: aRC=NS_ERROR_INVALID_ARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+00:01:30.437464 DCon16   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:30.470863 DCon16   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:01:38.054222 main     VirtualBox: object deletion starts
+00:01:38.054349 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/jono/VirtualBox VMs/Windows 10/Windows 10.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:01:38.054605 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/jono/VirtualBox VMs/Sussy/Sussy.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:01:38.054768 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/jono/VirtualBox VMs/Ubuntu 22.04.5 LTS/Ubuntu 22.04.5 LTS.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:01:38.055530 main     HostDnsMonitor: shutting down ...
+00:01:38.071463 main     HostDnsMonitor: shut down
+00:01:38.095458 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:38.095598 main     VirtualBox: object deleted

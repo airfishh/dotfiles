@@ -1,0 +1,67 @@
+{
+  "layer": "top",
+  "margin-top": 5,
+  "margin-left": 5,
+  "margin-right": 5,
+  "modules-left": [
+    "ext/workspaces"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "network",
+    "battery",
+    "pulseaudio"
+  ],
+  "ext/workspaces": {
+    "format": "{name}",
+    "ignore-hidden": false,
+    "on-click": "activate",
+    "on-click-right": "deactivate",
+    "sort-by-id": false
+  },
+  "network": {
+    "format-wifi": " {signalStrength}%",
+    "format-disconnected": "󰤮 No Network",
+    "interval": 5,
+    "tooltip": false,
+    "on-click": "Network Connections"
+  },
+  "battery": {
+    "format": "{icon} {capacity}%",
+    "format-icons": [
+      "󰁻",
+      "󰁽",
+      "󰁿",
+      "󰂁",
+      "󰁹"
+    ],
+    "format-charging": [
+      "󰂄"
+    ]
+  },
+  "clock": {
+    "interval": 60,
+    "tooltip": true,
+    "format-alt": "{:%a, %d. %b  %H:%M}",
+    "tooltip-format": "{:%Y-%m-%d}"
+  },
+  "pulseaudio": {
+    "scroll-step": 5,
+    "max-volume": 150,
+    "format": "{icon} {volume}%",
+    "format-bluetooth": "{icon} {volume}%",
+    "format-icons": {
+      "headphone": "",
+      "default": [
+        "",
+        "",
+        " "
+      ]
+    },
+    "nospacing": 1,
+    "format-muted": " ",
+    "tooltip": false
+  }
+}

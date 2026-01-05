@@ -1,0 +1,22 @@
+00:00:00.352095 VirtualBox GUI VM Selector Window 7.2.4 r170995 linux.amd64 (Oct 22 2025 16:59:14) release log
+00:00:00.352097 Log opened 2025-12-06T08:43:02.285836000Z
+00:00:00.352098 Build Type: release
+00:00:00.352100 OS Product: Linux
+00:00:00.352101 OS Release: 6.12.60-1-lts
+00:00:00.352103 OS Version: #1 SMP PREEMPT_DYNAMIC Mon, 01 Dec 2025 13:15:19 +0000
+00:00:00.352131 DMI Product Name: 20U5000HAU
+00:00:00.352146 DMI Product Version: ThinkPad L14 Gen 1
+00:00:00.352153 Firmware type: UEFI
+00:00:00.352463 Secure Boot: Disabled
+00:00:00.352511 Host RAM: 15349MB (14.9GB) total, 14493MB (14.1GB) available
+00:00:00.352514 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.352514 Process ID: 1851
+00:00:00.352515 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.352541 Qt version: 6.10.1
+00:00:00.353900 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.377166 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.923138 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:04.504872 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:04.797007 GUI: UIInvisibleWindow::sltFallback: Move event missing. Screen: 0, work area: 959x539 x 800x800
+00:00:04.797040 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 959x539 x 800x800
+00:00:12.723541 GUI: UIMediumEnumerator: Medium-enumeration finished!

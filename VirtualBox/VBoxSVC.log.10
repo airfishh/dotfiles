@@ -1,0 +1,123 @@
+00:00:00.001614 main     VirtualBox XPCOM Server 7.2.4 r170995 linux.amd64 (Oct 22 2025 16:59:14) release log
+00:00:00.001615 main     Log opened 2025-12-04T00:34:57.205949000Z
+00:00:00.001616 main     Build Type: release
+00:00:00.001618 main     OS Product: Linux
+00:00:00.001618 main     OS Release: 6.12.60-1-lts
+00:00:00.001619 main     OS Version: #1 SMP PREEMPT_DYNAMIC Mon, 01 Dec 2025 13:15:19 +0000
+00:00:00.001643 main     DMI Product Name: 20U5000HAU
+00:00:00.001650 main     DMI Product Version: ThinkPad L14 Gen 1
+00:00:00.001656 main     Firmware type: UEFI
+00:00:00.001966 main     Secure Boot: Disabled
+00:00:00.002006 main     Host RAM: 15349MB (14.9GB) total, 14421MB (14.0GB) available
+00:00:00.002008 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.002008 main     Process ID: 1807
+00:00:00.002008 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.009808 main     IPC socket path: /tmp/.vbox-jono-ipc/ipcd
+00:00:00.021593 DCon01   VirtualBox: object creation starts
+00:00:00.022443 DCon01   Home directory: '/home/jono/.config/VirtualBox'
+00:00:00.023082 DCon01   Loading settings file "/home/jono/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.027456 DCon01   USB: Unknown USB device detected (idVendor: 0x06cb, idProduct: 0x00be)
+00:00:00.027827 DCon01   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0029)
+00:00:00.027980 DCon01   Successfully initialised host USB using sysfs
+00:00:00.037817 DCon01   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.039852 DCon01   HostDnsMonitor: initializing
+00:00:00.040241 DCon01   NAT: resolv.conf: nameserver 130.216.1.1
+00:00:00.040246 DCon01   NAT: resolv.conf: nameserver 130.216.1.2
+00:00:00.040256 DCon01   HostDnsMonitor: updating information
+00:00:00.040262 DCon01   HostDnsMonitor: old information
+00:00:00.040263 DCon01     no server entries
+00:00:00.040265 DCon01     no domain set
+00:00:00.040266 DCon01     no search string entries
+00:00:00.040267 DCon01   HostDnsMonitor: new information
+00:00:00.040268 DCon01     server 1: 130.216.1.1
+00:00:00.040270 DCon01     server 2: 130.216.1.2
+00:00:00.040271 DCon01     domain: wlan.auckland.ac.nz
+00:00:00.040272 DCon01     search string 1: wlan.auckland.ac.nz
+00:00:00.042456 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.042908 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.044428 DCon01   Platform architecture set to 'x86'
+00:00:00.045998 DCon01   Loading settings file "/home/jono/VirtualBox VMs/Windows 10/Windows 10.vbox" with version "1.19-linux"
+00:00:00.046127 DCon01   Platform architecture set to 'x86'
+00:00:00.046433 DCon01   Platform architecture set to 'x86'
+00:00:00.047176 DCon01   Loading settings file "/home/jono/VirtualBox VMs/Sussy/Sussy.vbox" with version "1.19-linux"
+00:00:00.047270 DCon01   Platform architecture set to 'x86'
+00:00:00.047358 DCon01   Platform architecture set to 'x86'
+00:00:00.048243 DCon01   Loading settings file "/home/jono/VirtualBox VMs/Ubuntu 22.04.5 LTS/Ubuntu 22.04.5 LTS.vbox" with version "1.19-linux"
+00:00:00.048334 DCon01   Platform architecture set to 'x86'
+00:00:00.048971 DCon01   VirtualBox: object created
+00:00:00.963965 DCon05   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Could not open log file '/home/jono/VirtualBox VMs/Ubuntu 22.04.5 LTS/Logs/VBox.log.4' (VERR_FILE_NOT_FOUND)}, preserve=false aResultDetail=-102
+00:00:01.084724 DCon06   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:01.206060 DCon06   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:03.645255 DCon02   Launched VM: 3892320960 pid: 1870 (0x74e) frontend: GUI/Qt name: Ubuntu 22.04.5 LTS
+00:00:03.712782 DCon06   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:03.734628 DCon06   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:04.040340 DCon03   Platform architecture set to 'x86'
+00:00:04.061781 DCon05   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:04.067111 DCon05   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:04.740822 DCon02   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:04.794024 DCon05   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:04.863151 DCon04   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:04.873584 DCon04   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:00:04.888663 DCon02   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:05.094834 DCon01   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:05.096513 DCon01   HostDnsMonitorProxy::GetDomainName: wlan.auckland.ac.nz
+00:00:05.096665 DCon01   HostDnsMonitorProxy::GetNameServers:
+00:00:05.096668 DCon01     name server 1: 130.216.1.1
+00:00:05.096670 DCon01     name server 2: 130.216.1.2
+00:00:05.096819 DCon01   HostDnsMonitorProxy::GetSearchStrings:
+00:00:05.096826 DCon01     search string 1: wlan.auckland.ac.nz
+00:00:05.116227 DCon05   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:05.181641 DCon03   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:05.222286 DCon02   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:05.230676 DCon03   Saving settings file "/home/jono/VirtualBox VMs/Ubuntu 22.04.5 LTS/Ubuntu 22.04.5 LTS.vbox" with version "1.19-linux"
+00:00:05.249258 DCon03   Finished saving settings file "/home/jono/VirtualBox VMs/Ubuntu 22.04.5 LTS/Ubuntu 22.04.5 LTS.vbox"
+00:00:05.249603 DCon05   Saving settings file "/home/jono/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:05.252805 DCon05   Finished saving settings file "/home/jono/.config/VirtualBox/VirtualBox.xml"
+00:00:05.265177 DCon05   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:05.299778 DCon08   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:09.134430 DCon01   Saving settings file "/home/jono/VirtualBox VMs/Ubuntu 22.04.5 LTS/Ubuntu 22.04.5 LTS.vbox" with version "1.19-linux"
+00:00:09.137322 DCon01   Finished saving settings file "/home/jono/VirtualBox VMs/Ubuntu 22.04.5 LTS/Ubuntu 22.04.5 LTS.vbox"
+00:00:09.148779 DCon02   Saving settings file "/home/jono/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:09.151594 DCon02   Finished saving settings file "/home/jono/.config/VirtualBox/VirtualBox.xml"
+00:00:09.157120 DCon08   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:09.190831 DCon08   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:16:26.446045 USBPROXY USBProxyBackendLinux: Device 10c4:ea60 (sysfs:/sys/devices/pci0000:00/0000:00:08.1/0000:06:00.3/usb1/1-2//device:/dev/vboxusb/001/004) isn't accessible. giving udev a few seconds to fix this...
+00:18:28.598796 USBPROXY USBProxyBackendLinux: Device 10c4:ea60 (sysfs:/sys/devices/pci0000:00/0000:00:08.1/0000:06:00.3/usb1/1-2//device:/dev/vboxusb/001/005) isn't accessible. giving udev a few seconds to fix this...
+00:26:17.712378 USBPROXY USBProxyBackendLinux: Device 10c4:ea60 (sysfs:/sys/devices/pci0000:00/0000:00:08.1/0000:06:00.3/usb1/1-2//device:/dev/vboxusb/001/006) isn't accessible. giving udev a few seconds to fix this...
+00:37:27.473831 USBPROXY USBProxyBackendLinux: Device 10c4:ea60 (sysfs:/sys/devices/pci0000:00/0000:00:08.1/0000:06:00.3/usb1/1-2//device:/dev/vboxusb/001/007) isn't accessible. giving udev a few seconds to fix this...
+01:43:17.784817 USBPROXY USBProxyBackendLinux: Device 10c4:ea60 (sysfs:/sys/devices/pci0000:00/0000:00:08.1/0000:06:00.3/usb1/1-2//device:/dev/vboxusb/001/008) isn't accessible. giving udev a few seconds to fix this...
+01:47:57.215355 USBPROXY USBProxyBackendLinux: Device 10c4:ea60 (sysfs:/sys/devices/pci0000:00/0000:00:08.1/0000:06:00.3/usb1/1-2//device:/dev/vboxusb/001/009) isn't accessible. giving udev a few seconds to fix this...
+01:51:45.792942 USBPROXY USBProxyBackendLinux: Device 10c4:ea60 (sysfs:/sys/devices/pci0000:00/0000:00:08.1/0000:06:00.3/usb1/1-2//device:/dev/vboxusb/001/010) isn't accessible. giving udev a few seconds to fix this...
+02:11:19.739295 USBPROXY USBProxyBackendLinux: Device 10c4:ea60 (sysfs:/sys/devices/pci0000:00/0000:00:08.1/0000:06:00.3/usb1/1-2//device:/dev/vboxusb/001/011) isn't accessible. giving udev a few seconds to fix this...
+02:11:55.060532 USBPROXY USBProxyBackendLinux: Device 10c4:ea60 (sysfs:/sys/devices/pci0000:00/0000:00:08.1/0000:06:00.3/usb1/1-2//device:/dev/vboxusb/001/012) isn't accessible. giving udev a few seconds to fix this...
+02:12:02.352720 USBPROXY USBProxyBackendLinux: Device 10c4:ea60 (sysfs:/sys/devices/pci0000:00/0000:00:08.1/0000:06:00.3/usb1/1-2//device:/dev/vboxusb/001/013) isn't accessible. giving udev a few seconds to fix this...
+02:12:29.610754 DCon280  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:12:29.645091 DCon281  NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+02:12:29.659996 DCon281  NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+02:12:30.231105 DCon281  Saving settings file "/home/jono/VirtualBox VMs/Ubuntu 22.04.5 LTS/Ubuntu 22.04.5 LTS.vbox" with version "1.19-linux"
+02:12:30.233754 DCon281  Finished saving settings file "/home/jono/VirtualBox VMs/Ubuntu 22.04.5 LTS/Ubuntu 22.04.5 LTS.vbox"
+02:12:30.244708 DCon277  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:12:30.247755 DCon277  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:12:30.264271 DCon277  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:12:30.273571 DCon279  NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+02:12:30.289673 DCon279  NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+02:12:46.430870 DCon277  Saving settings file "/home/jono/VirtualBox VMs/Ubuntu 22.04.5 LTS/Ubuntu 22.04.5 LTS.vbox" with version "1.19-linux"
+02:12:46.447918 DCon277  Finished saving settings file "/home/jono/VirtualBox VMs/Ubuntu 22.04.5 LTS/Ubuntu 22.04.5 LTS.vbox"
+02:12:46.460100 DCon290  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:12:46.482542 DCon290  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:13:05.604455 DCon279  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:13:05.639216 DCon292  NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+02:13:05.660252 DCon292  NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+02:13:06.202088 DCon279  Saving settings file "/home/jono/VirtualBox VMs/Ubuntu 22.04.5 LTS/Ubuntu 22.04.5 LTS.vbox" with version "1.19-linux"
+02:13:06.205324 DCon279  Finished saving settings file "/home/jono/VirtualBox VMs/Ubuntu 22.04.5 LTS/Ubuntu 22.04.5 LTS.vbox"
+02:13:06.216588 DCon287  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:13:06.218460 DCon287  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:13:06.234931 DCon293  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:13:06.255779 DCon293  NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+02:13:06.274783 DCon279  NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+02:14:41.799390 DCon291  Saving settings file "/home/jono/VirtualBox VMs/Ubuntu 22.04.5 LTS/Ubuntu 22.04.5 LTS.vbox" with version "1.19-linux"
+02:14:41.802731 DCon291  Finished saving settings file "/home/jono/VirtualBox VMs/Ubuntu 22.04.5 LTS/Ubuntu 22.04.5 LTS.vbox"
+02:14:41.814674 DCon292  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:14:41.828016 DCon283  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:37:57.865464 USBPROXY USBProxyBackendLinux: Device 10c4:ea60 (sysfs:/sys/devices/pci0000:00/0000:00:08.1/0000:06:00.3/usb1/1-2//device:/dev/vboxusb/001/014) isn't accessible. giving udev a few seconds to fix this...
+02:40:24.144738 USBPROXY USBProxyBackendLinux: Device 10c4:ea60 (sysfs:/sys/devices/pci0000:00/0000:00:08.1/0000:06:00.3/usb1/1-2//device:/dev/vboxusb/001/015) isn't accessible. giving udev a few seconds to fix this...
