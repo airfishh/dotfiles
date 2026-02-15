@@ -43,6 +43,8 @@
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org-mode-files/")
 
+;; START MENU CONFIG
+;; (setq fancy-splash-image (concat (getenv "HOME") "/Downloads/Wallpapers/catviolin.jpg"))
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
@@ -88,8 +90,20 @@
 (setq doom-theme 'doom-gruvbox-material) ; dark variant
 ;;(setq doom-theme 'doom-gruvbox-material-light) ; light variant
 
-(setq org-roam-directory "~/Documents/RoamNotes")
+(setq org-roam-directory "~/Documents/org/roam")
 
+(after! org
+  (setq org-agenda-files '("~/Documents/org/Agenda.org")))
 
 (setq display-line-numbers-type 'relative)
 
+;; Make deleted files go to the trash can
+(setq delete-by-moving-to-trash t
+      trash-directory "~/.local/share/Trash/files")
+
+;; Set splash screen
+(setq fancy-splash-image (concat "~/Downloads/doom-logos/doom3.iconset/icon_256x256.png"))
+
+;;(add-to-list '+doom-dashboard-menu-sections
+;;             '("Open vterm in home dir"
+;;               :icon (all-the-icons-octicon )))

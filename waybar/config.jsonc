@@ -49,7 +49,7 @@
   },
   "network": {
     "format-wifi": " {signalStrength}%",
-    "format-disconnected": "󰤮 No Network",
+    "format-disconnected": "󰤮  No Network",
     "interval": 5,
     "tooltip": false,
     "on-click": "Network Connections"

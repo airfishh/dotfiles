@@ -50,5 +50,3 @@
 
 (package! tldr)
 
-(package! org-modern)
-
