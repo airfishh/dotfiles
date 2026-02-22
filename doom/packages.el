@@ -50,3 +50,4 @@
 
 (package! tldr)
 
+(package! clippy)
