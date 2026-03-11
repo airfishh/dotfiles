@@ -51,3 +51,7 @@
 (package! tldr)
 
 (package! clippy)
+
+(package! pdf-tools)
+
+(package! typst-ts-mode :recipe (:host codeberg :repo "meow_king/typst-ts-mode"))

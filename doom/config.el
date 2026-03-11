@@ -8,7 +8,7 @@
 ;(setq doom-font (font-spec :family "Fira Code" :size 12 :weight 'semi-light)
 ;;      doom-variable-pitch-font (font-spec :family "Fira Sans" :size 13))
 
-(setq doom-theme 'doom-one)
+;;(setq doom-theme 'doom-one)
 
 (setq display-line-numbers-type 'relative)
 
@@ -17,7 +17,7 @@
 
 ;; `gruvbox-material' contrast and palette options
 (setq doom-gruvbox-material-background  "medium"  ; or hard (defaults to soft)
-     doom-gruvbox-material-palette     "mix") ; or original (defaults to material)
+     doom-gruvbox-material-palette     "material") ; or original (defaults to material)
 
 ;; `gruvbox-material-light' contrast and palette options
 (setq doom-gruvbox-material-light-background  "medium" ; or hard (defaults to soft)
@@ -28,9 +28,14 @@
 ;;(setq doom-theme 'doom-gruvbox-material-light) ; light variant
 
 (setq org-directory "~/org/")
-(setq org-roam-directory "~/Documents/org/roam")
+(setq org-roam-directory "~/org/roam")
 (after! org
-  (setq org-agenda-files '("~/Documents/org/Agenda.org")))
+  (setq org-agenda-files '("~/org/Agenda.org")))
+
+;; BABEL
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((python . t)))
 
 ;; Make deleted files go to the trash can
 (setq delete-by-moving-to-trash t
@@ -49,3 +54,24 @@
       (:prefix ("c h" . "Help info from Clippy")
         :desc "Clippy describes the function under point" "f" #'clippy-describe-function
         :desc "Clippy describes the variable under point" "v" #'clippy-describe-variable))
+
+;; Typst
+(use-package typst-ts-mode
+  :ensure t
+  :custom
+  (typst-ts-watch-options "--open")
+  (typst-ts-mode-grammar-location (expand-file-name "tree-sitter/libtree-sitter-typst.so" user-emacs-directory))
+  (typst-ts-mode-enable-raw-blocks-highlight t)
+  :config
+  (keymap-set typst-ts-mode-map "C-c C-c" #'typst-ts-tmenu))
+
+(with-eval-after-load 'eglot
+  (with-eval-after-load 'typst-ts-mode
+    (add-to-list 'eglot-server-programs
+                 `((typst-ts-mode) .
+                   ,(eglot-alternatives `(,typst-ts-lsp-download-path
+                                          "tinymist"
+                                          "typst-lsp"))))))
+
+
+
