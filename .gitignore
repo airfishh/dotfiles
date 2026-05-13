@@ -1,34 +1,34 @@
-!.gitignore
-!baloofileinformationrc
-!dolphinrc
-!electron-builder.json
-!kiorc
-!kritadisplayrc
-!kritarc
-!mimeapps.list
-!pavucontrol.ini
-!QtProject.conf
-!trashrc
+.gitignore
+baloofileinformationrc
+dolphinrc
+electron-builder.json
+kiorc
+kritadisplayrc
+kritarc
+mimeapps.list
+pavucontrol.ini
+QtProject.conf
+trashrc
 
-!Arduino IDE
-!arduino-ide
-!calibre
-!cat-installer
-!dconf
-!kdeconnect
-!mpd
-!niri
-!obsidian
-!pulse
-!session
-!supertuxkart/config-0.10
-!systemd/user
-!xsettingsd
-!dconf
-!nwg-look
+Arduino IDE
+arduino-ide
+calibre
+cat-installer
+dconf
+kdeconnect
+mpd
+niri
+obsidian
+pulse
+session
+supertuxkart/config-0.10
+systemd/user
+xsettingsd
+dconf
+nwg-look
 
-!winapps
-!sdrpp
-!gnuradio
+winapps
+sdrpp
+gnuradio
 
-!nvim
+nvim
