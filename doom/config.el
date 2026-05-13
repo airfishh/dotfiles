@@ -1,8 +1,5 @@
 ;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
 
-;; Place your private configuration here! Remember, you do not need to run 'doom
-;; sync' after modifying this file!
-
 (require 'use-package)
 
 ;(setq doom-font (font-spec :family "Fira Code" :size 12 :weight 'semi-light)
@@ -73,5 +70,18 @@
                                           "tinymist"
                                           "typst-lsp"))))))
 
+(use-package typst-preview
+  ;; :load-path "path/to/typst-preview.el" ;; if installed manually
+  :init
+  (setq typst-preview-autostart t) ; start preview automatically when typst-preview-mode is activated
+  (setq typst-preview-open-browser-automatically t) ; open browser automatically when typst-preview-start is run
 
+  :custom
+  (typst-preview-browser "default") 	; this is the default option; other options are `eaf-browser' or `xwidget'.
+  (typst-preview-invert-colors "auto")	; invert colors depending on system theme
+  (typst-preview-executable "tinymist") ; path to tinymist binary (relative or absolute)
+  (typst-preview-partial-rendering t)   ; enable partial rendering 
+  
+  :config
+  (define-key typst-preview-mode-map (kbd "C-c C-j") 'typst-preview-send-position))
 
