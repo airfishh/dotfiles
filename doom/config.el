@@ -12,6 +12,11 @@
 ;; START MENU CONFIG
 ;; (setq fancy-splash-image (concat "~/Downloads/Wallpapers/catviolin.jpg"))
 
+;; Keybinds
+(define-key evil-normal-state-map (kbd "j") 'evil-next-visual-line)
+(define-key evil-normal-state-map (kbd "k") 'evil-previous-visual-line)
+
+
 ;; `gruvbox-material' contrast and palette options
 (setq doom-gruvbox-material-background  "medium"  ; or hard (defaults to soft)
      doom-gruvbox-material-palette     "material") ; or original (defaults to material)
@@ -24,10 +29,13 @@
 (setq doom-theme 'doom-gruvbox-material) ; dark variant
 ;;(setq doom-theme 'doom-gruvbox-material-light) ; light variant
 
+;; ORG
 (setq org-directory "~/org/")
 (setq org-roam-directory "~/org/roam")
+(setq org-agenda-files '("~/org/"))
 (after! org
-  (setq org-agenda-files '("~/org/Agenda.org")))
+  (setq-default org-display-custom-times t)
+  (setq org-time-stamp-custom-formats '("<%a %e %b %Y>" . "<%a %e %b %Y %H:%M>")))
 
 ;; BABEL
 (org-babel-do-load-languages
@@ -85,3 +93,36 @@
   :config
   (define-key typst-preview-mode-map (kbd "C-c C-j") 'typst-preview-send-position))
 
+;; PDF
+(setq evil-initial-state-alist '((pdf-view-mode . emacs)))
+
+;; Latex
+(use-package org-latex-preview
+  :config
+  ;; Increase preview width
+  (plist-put org-latex-preview-appearance-options
+             :page-width 0.8)
+
+  ;; ;; Use dvisvgm to generate previews
+  ;; ;; You don't need this, it's the default:
+  ;; (setq org-latex-preview-process-default 'dvisvgm)
+  
+  ;; Turn on `org-latex-preview-mode', it's built into Org and much faster/more
+  ;; featured than org-fragtog. (Remember to turn off/uninstall org-fragtog.)
+  (add-hook 'org-mode-hook 'org-latex-preview-mode)
+
+  ;; ;; Block C-n, C-p etc from opening up previews when using `org-latex-preview-mode'
+  ;; (setq org-latex-preview-mode-ignored-commands
+  ;;       '(next-line previous-line mwheel-scroll
+  ;;         scroll-up-command scroll-down-command))
+
+  ;; ;; Enable consistent equation numbering
+  ;; (setq org-latex-preview-numbered t)
+
+  ;; Bonus: Turn on live previews.  This shows you a live preview of a LaTeX
+  ;; fragment and updates the preview in real-time as you edit it.
+  ;; To preview only environments, set it to '(block edit-special) instead
+  (setq org-latex-preview-mode-display-live t)
+
+  ;; More immediate live-previews -- the default delay is 1 second
+  (setq org-latex-preview-mode-update-delay 0.25))

@@ -5,9 +5,10 @@
 
 window {
   font-size: 24px;
-  font-family: Maple Mono;
+  font-family: Overpass;
   background-color: rgba(43, 48, 59, 0.9);
   color: #e8eaed;
+  border-radius: 10px;
 }
 
 #entry {
@@ -28,6 +29,7 @@ window {
   background-color: rgba(43, 48, 59, 0.9);
   color: #e8eaed;
   padding: 0.25em;
+  border-radius: 10px; /*Match with window border-radius*/
 }
 
 #input:focus {

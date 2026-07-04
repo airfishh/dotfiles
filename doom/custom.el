@@ -8,7 +8,7 @@
    '("aec7b55f2a13307a55517fdf08438863d694550565dee23181d2ebd973ebd6b8"
      "72d811b0506774df615b4095c16644555bb60eea9305ac046d846b11d548c075"
      "fd22a3aac273624858a4184079b7134fb4e97104d1627cb2b488821be765ff17" default))
- '(org-agenda-files '("~/Documents/org-mode-files/test.org"))
+ '(org-agenda-files '("~/org/Agenda.org"))
  '(package-selected-packages
    '(go graphviz-dot-mode org-latex-impatient org-modern org-roam org-roam-ql
      org-roam-ui pdf-tools platformio-mode pytest treemacs-evil)))
